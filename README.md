@@ -1,1 +1,1 @@
-# olop-helm-charts
+# opo-helm-chart
