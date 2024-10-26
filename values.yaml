@@ -340,19 +340,9 @@ ingress:
 ollama:
   # -- Install Ollama Helm Chart
   enabled: true
-  install: true
-  ollama:
-    gpu:
-      enabled: false
-      model:
-      - mistral
-  ingress:
-    enabled: true
-    hostname: ollama1.idfm-datalab.net
-    annotations:
-      kubernetes.io/ingress.global-static-ip-name: ollama
   # -- External Ollama API URL (Can be used even if Ollama is not enabled/ installed)
-  externalURL: ""
+  externalURL: "https://ollama.idfm-datalab.net"
+ollamaUrls: []
 ## OpenAI configuration parameters
 openai:
   # -- Inject OpenAI API Environment Variables
@@ -377,4 +367,3 @@ litellm:
     litellm_settings: {}
     model_list: []
     router_settings: {}
-
