@@ -8,7 +8,7 @@ entries:
           description: upgrade app version to 0.3.14
     apiVersion: v2
     appVersion: 0.3.14
-    created: "2024-10-26T18:04:35.012061+02:00"
+    created: "2024-10-27T02:40:00.736064+02:00"
     description: Get up and running with large language models locally.
     digest: 6f345baa25fd444ed099565cd388d980ff11c36a32b6ac30d6b8fcfaa455a634
     home: https://ollama.ai/
@@ -30,37 +30,4 @@ entries:
     urls:
     - https://mbtraore.github.io/olop-helm-charts/ollama-0.63.0.tgz
     version: 0.63.0
-  open-webui:
-  - annotations:
-      licenses: MIT
-    apiVersion: v2
-    appVersion: 0.1.107
-    created: "2024-10-26T18:04:35.016904+02:00"
-    dependencies:
-    - condition: ollama.enabled
-      name: ollama
-      repository: https://otwld.github.io/ollama-helm/
-      version: 0.63.0
-    description: "Chart to deploy Open WebUI, a ChatGPT-Style Web UI Client for Ollama
-      \U0001F999."
-    digest: 4c4d0438824712549e25a3a2017e01e60435e36aacbc9b90e30508dba616aad0
-    home: https://openwebui.com/
-    icon: https://openwebui.com/favicon.png/
-    keywords:
-    - ai
-    - ollama
-    - llm
-    - llama
-    maintainers:
-    - email: mb.traore@outlook.com
-      name: mbtraore
-      url: https://mbarre.fr
-    name: open-webui
-    sources:
-    - https://github.com/jmorganca/ollama/
-    - https://github.com/open-webui/open-webui
-    - https://github.com/braveokafor/open-webui-helm/
-    urls:
-    - https://mbtraore.github.io/olop-helm-charts/open-webui-3.4.0.tgz
-    version: 3.4.0
-generated: "2024-10-26T18:04:35.009986+02:00"
+generated: "2024-10-27T02:40:00.734522+02:00"

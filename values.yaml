@@ -340,9 +340,12 @@ ingress:
 ollama:
   # -- Install Ollama Helm Chart
   enabled: true
+  ingress:
+    # -- Enable ingress controller resource
+    enabled: true
   # -- External Ollama API URL (Can be used even if Ollama is not enabled/ installed)
   externalURL: "https://ollama.idfm-datalab.net"
-ollamaUrls: []
+  ollamaUrls: ['https://ollama.idfm-datalab.net']
 ## OpenAI configuration parameters
 openai:
   # -- Inject OpenAI API Environment Variables
